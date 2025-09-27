@@ -3,6 +3,7 @@ const cors = require('cors');
 const connectDb = require('./config/db');
 const categoryRouter = require('./routes/categoryRoute');
 const technologyRouter = require('./routes/technologyRoute');
+const projectRouter = require('./routes/projectRoute');
 require('dotenv').config();
 
 // app config
@@ -21,7 +22,7 @@ connectDb();
 // api endpoints
 app.use("/api/category",categoryRouter)
 app.use("/api/technology",technologyRouter)
-// app.use("/api/project",categoryRouter)
+app.use("/api/project",projectRouter)
 
 
 app.get('/',(req,res)=>{

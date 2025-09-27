@@ -4,7 +4,7 @@ const projectSchema = new mongoose.Schema({
     title:{type:String,required:true},
     short_description:{type:String,required:true},
     detailed_description:{type:String,required:true},
-    category:{type:String,required:true},
+    category:[{type:mongoose.Schema.Types.ObjectId,ref:"Category"}],
     role:{type:String},
     features:[{type:String}],
     technologies:[{type:mongoose.Schema.Types.ObjectId,ref:"Technology"}],

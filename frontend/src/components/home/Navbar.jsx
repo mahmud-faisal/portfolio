@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='w-9/10 flex justify-between items-center m-auto z-50'>
         <div className="">
-        <img src={assets.logo_nbg} alt="" className="w-[100px]" />
+        <Link to='/'><img src={assets.logo_nbg} alt="" className="w-[100px]" /></Link>
         </div>
 
         {/* Navigations */}

@@ -21,7 +21,7 @@ const Hero = () => {
             <p className="font-roboto font-bold tracking-wider">SOFTWARE ENGINEER</p>
             <div className="hero-social flex justify-center gap-3 text-2xl">
             <Link to="https://github.com/mahmud-faisal"><FaGithub /></Link>
-            <Link to="https://github.com/mahmud-faisal"><FaLinkedin /></Link>
+            <Link to="https://www.linkedin.com/in/kfmahmud/"><FaLinkedin /></Link>
             <a href="mailto:kfaisalmahmud@gmail.com" className="">
             <FaEnvelope />
             </a>

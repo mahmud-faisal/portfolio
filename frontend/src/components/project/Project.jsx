@@ -2,6 +2,10 @@ import React from 'react'
 import { assets } from '../../assets/front_images/assets'
 import { FaEye, FaGithub, FaGlobe,  FaNodeJs,  FaReact, FaServer } from 'react-icons/fa'
 import { Link } from 'react-router'
+import ImageSlider from './ImageSlider';
+
+
+
 
 const Project = ({project}) => {
     const techIcons = {
@@ -11,12 +15,13 @@ const Project = ({project}) => {
         // Python: <FaPython />,
         // add more as needed
       }
-    console.log(project)
+    // console.log(project)
   return (
     <div className='flex p-4 border-1 rounded-2xl to-blue-950 gap-4'>
-        <div className="">
+        <div className="max-w-[250px]">
             {/* Slider */}
-            <img src={assets.sample_project_image} alt="" className='max-w-[500px]' />
+            {/* <img src={assets.sample_project_image} alt="" className='max-w-[500px]' /> */}
+            <ImageSlider images={project.media} />
         </div>
 
         <div className="content">

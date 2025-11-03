@@ -7,6 +7,9 @@ import social_media from './GG_Social.png'
 import male_avatar from './male_avatar.png'
 import oj_logo from './OJ_logo.png'
 import client_server from './client-server.gif'
+import codeforces from './codeforces.png'
+import atcoder from './atcoder.png'
+import leetcode from './leet.png'
 
 export const assets ={
     logo_nbg,
@@ -17,5 +20,8 @@ export const assets ={
     social_media,
     male_avatar,
     oj_logo,
-    client_server
+    client_server,
+    codeforces,
+    atcoder,
+    leetcode
 }

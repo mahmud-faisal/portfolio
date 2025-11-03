@@ -70,9 +70,9 @@ const Overview = () => {
           <div className="knowmore relative">
             <Link
               to="/about"
-              className="flex items-center gap-2 px-5 py-18 bg-black rounded-full text-white absolute right-60 bottom-32 font-bold text-lg hover:bg-white hover:text-black cursor-pointer"
+              className="flex items-center gap-2 px-5 py-17 bg-black rounded-full text-white absolute right-60 bottom-32 font-bold text-2xl hover:bg-white hover:text-black cursor-pointer"
             >
-              Know More <GoArrowUpRight />
+              Projects <GoArrowUpRight />
             </Link>
           </div>
         </div>

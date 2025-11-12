@@ -24,7 +24,7 @@ const Education = () => {
       institution: "Ideal School and College",
       duration: "2012 – 2017",
       details:
-        "Graduated with distinction, building the foundation for my technical and analytical skills.",
+        "Graduated with distinction, building the foundation for my technical and analytical skills. I acheived a merit scholarsip here.",
       logo: assets.ssc_logo,
     },
   ];

@@ -39,9 +39,9 @@ const Navbar = () => {
               : 'opacity-0 -translate-y-6 pointer-events-none'
           }`}
         >
-          
+          <Link to='/'>Home</Link>
           <Link to='/projects'>Projects</Link>
-          <Link to='/resume'>Resume</Link>
+          {/* <Link to='/resume'>Resume</Link> */}
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact</Link>
           
@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Menu Icon */}
         <div onClick={toggleMenu} className="cursor-pointer">
-          <img src={assets.menu_icon} alt="menu" className="w-[40px]" />
+          <img src={assets.menu_icon} alt="menu" className="w-10" />
         </div>
       </div>
     </div>

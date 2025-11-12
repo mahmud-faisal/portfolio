@@ -21,9 +21,7 @@ const Intro = () => {
     <div className="flex items-center">
       <blockquote className="border-l-4 border-gray-400 pl-4 italic text-gray-700 max-w-lg">
         <p className="text-justify font-heebo text-xl leading-relaxed">
-          I am a student of Computer Science and Engineering at Daffodil International University.
-          My biggest goal in life is to be a kind person. I want to achieve success in every step of my life.
-          I always want to work hard for myself, my family, and my country.
+        I am a Computer Science and Engineering student at Daffodil International University, passionate about technology and personal growth. I strive for excellence in every endeavor and am committed to making meaningful contributions to my family, community, and country.
         </p>
       </blockquote>
     </div>

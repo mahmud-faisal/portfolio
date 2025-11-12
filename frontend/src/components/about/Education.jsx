@@ -21,7 +21,7 @@ const Education = () => {
     },
     {
       degree: "Secondary School Certificate (SSC)",
-      institution: "Ideal School and College",
+      institution: "Patgram A.B. Govt High School",
       duration: "2012 – 2017",
       details:
         "Graduated with distinction, building the foundation for my technical and analytical skills. I acheived a merit scholarsip here.",

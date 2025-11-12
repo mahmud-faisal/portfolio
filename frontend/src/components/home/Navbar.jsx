@@ -39,9 +39,9 @@ const Navbar = () => {
               : 'opacity-0 -translate-y-6 pointer-events-none'
           }`}
         >
-          
+          <Link to='/home'>Home</Link>
           <Link to='/projects'>Projects</Link>
-          <Link to='/resume'>Resume</Link>
+          {/* <Link to='/resume'>Resume</Link> */}
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact</Link>
           

@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Menu Icon */}
         <div onClick={toggleMenu} className="cursor-pointer">
-          <img src={assets.menu_icon} alt="menu" className="w-[40px]" />
+          <img src={assets.menu_icon} alt="menu" className="w-10" />
         </div>
       </div>
     </div>

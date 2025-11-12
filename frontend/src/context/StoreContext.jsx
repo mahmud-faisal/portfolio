@@ -5,7 +5,7 @@ import axios from 'axios'
 export const StoreContext = createContext();
 
 const StoreContextProvider = (props)=>{
-    const backend_url = 'http://localhost:4002';
+    const backend_url = 'https://portfolio-backend-be3t.onrender.com';
 
     const [projectList,setProjectList]=useState([]);
     

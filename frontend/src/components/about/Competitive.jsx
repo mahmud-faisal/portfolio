@@ -1,6 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { assets } from '../../assets/front_images/assets'
+import axios from 'axios'
 const Competitive = () => {
+  
+  const [cf,setCf]= useState({});
+
+  useEffect(()=>{
+    const cf_fetch=async()=>{
+      const response = await axios.get('https://codeforces.com/api/user.info?handles=Dark_Striker_');
+
+      // console.log(response.data.result);
+      setCf(response.data.result[0]);
+    }
+
+    cf_fetch();
+    
+  },[])
+
+  const {maxRating,maxRank} = cf;
+
+  // console.log(rating,rank);
   return (
     <div className="p-8 rounded-lg shadow-lg bg-gray-50 hover:shadow-2xl transition-shadow duration-300">
     <h3 className="text-2xl font-semibold mb-4 text-blue-600">
@@ -28,7 +47,7 @@ const Competitive = () => {
           Solved: <span className="font-medium text-blue-600">420+</span>
         </p>
         <p className="text-gray-600 text-sm">
-          Rating: <span className="font-medium text-blue-600">1350 (Specialist)</span>
+          Rating: <span className="font-medium text-blue-600">{maxRating} ({maxRank})</span>
         </p>
       </a>
 

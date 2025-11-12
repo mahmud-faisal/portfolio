@@ -6,15 +6,15 @@ const Education = () => {
     {
       degree: "B.Sc. in Computer Science & Engineering",
       institution: "Daffodil International University (DIU)",
-      duration: "2021 – Present",
+      duration: "2022 – Present",
       details:
         "Currently pursuing my undergraduate degree focusing on Data Structures, Algorithms, and Full-Stack Web Development.",
       logo: assets.diu_logo,
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      institution: "Dhaka City College",
-      duration: "2018 – 2020",
+      institution: "Govt. Debendra College",
+      duration: "2017 – 2019",
       details:
         "Completed my higher secondary education with a concentration in Science, achieving excellent results in Mathematics and Physics.",
       logo: assets.hsc_logo,
@@ -22,7 +22,7 @@ const Education = () => {
     {
       degree: "Secondary School Certificate (SSC)",
       institution: "Ideal School and College",
-      duration: "2016 – 2018",
+      duration: "2012 – 2017",
       details:
         "Graduated with distinction, building the foundation for my technical and analytical skills.",
       logo: assets.ssc_logo,

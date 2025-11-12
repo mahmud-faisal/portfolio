@@ -24,7 +24,7 @@ const Education = () => {
       institution: "Patgram A.B. Govt High School",
       duration: "2012 – 2017",
       details:
-        "Graduated with distinction, building the foundation for my technical and analytical skills. I acheived a merit scholarsip here.",
+        "Graduated with distinction, building the foundation for my technical and analytical skills. I acheived a merit scholarship here.",
       logo: assets.ssc_logo,
     },
   ];

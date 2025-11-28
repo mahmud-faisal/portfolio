@@ -27,7 +27,7 @@ const ImageSlider = ({images}) => {
         <Slider {...settings}>
              {screenshots.map((image)=>{
                 return <div>
-                <img src={`${backend_url}${image}`} alt={`${backend_url}${image}`} className='w-[200px] rounded-2xl' />
+                <img src={`${backend_url}${image}`} alt={`${backend_url}${image}`} className='w-full h-[180px]  rounded-2xl' />
               </div>
             })} 
           

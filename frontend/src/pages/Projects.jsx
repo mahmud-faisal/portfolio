@@ -9,7 +9,7 @@ const Projects = () => {
   // console.log(projectList)
   return (
     
-    <div className='w-9/10 mx-auto mt-32'>
+    <div className='w-9/10 mx-auto mt-32 mb-20'>
       <h2 className="text-center text-4xl font-bold my-4">Projects</h2>
         {projectList.map((data)=>{
           return(

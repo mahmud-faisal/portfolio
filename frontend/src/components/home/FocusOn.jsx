@@ -9,8 +9,8 @@ const FocusOn = () => {
       <h2 className="text-4xl text-center my-4">Focus on the <span className="text-customlime font-heebo">Best</span></h2>
       <div className="divider flex flex-col md:flex-row gap-8">
         <div className="left bg-gray-700 w-1/2 p-12 rounded-4xl">
-          <div className="logos">
-    <img src={assets.oj_logo} alt="" className='rounded-4xl' />
+          <div className="logos bg-white rounded-4xl">
+    <img src={assets.logo_bg_free} alt="" className='rounded-4xl w-full' />
           </div>
           <div className="text-contents">
             <h3 className="text-white text-2xl font-bold py-2">Problem Solver</h3>

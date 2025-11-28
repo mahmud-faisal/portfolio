@@ -10,6 +10,7 @@ import client_server from './client-server.gif'
 import codeforces from './codeforces.png'
 import atcoder from './atcoder.png'
 import leetcode from './leet.png'
+import logo_bg_free from './OJ_logos_bg_free.png'
 
 export const assets ={
     logo_nbg,
@@ -23,5 +24,6 @@ export const assets ={
     client_server,
     codeforces,
     atcoder,
-    leetcode
+    leetcode,
+    logo_bg_free
 }

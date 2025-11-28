@@ -21,7 +21,7 @@ const Overview = () => {
   // const scale = Math.max(1 - rotation / 200, 0.8);
 
   return (
-    <div className="relative bg-blue-400">
+    <div className="relative bg-black -z-30">
       {/* Overview rotating in 2D */}
       <div
         ref={ref}
@@ -32,17 +32,12 @@ const Overview = () => {
       >
         <div className="wrapper flex flex-col w-9/10 m-auto relative">
           <div className="top flex flex-col md:flex-row w-full justify-between ">
-            <div className="left md:w-5/10 text-3xl">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-              voluptatum asperiores eum ipsam voluptas maiores nostrum excepturi,
-              qui minima pariatur,
+            <div className="left md:w-5/10 text-3xl/10 text-justify font-mono ">
+            With 4+ years of coding experience and a CS degree, I’m grounded in cloud architecture, software engineering, and database management. My work reflects best practices, continuous learning, and trusted contributions across projects...
             </div>
 
-            <div className="right md:w-4/10 ">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
-              aut harum provident nostrum, totam molestiae, autem quo quaerat illo
-              nesciunt aperiam ut repudiandae. Possimus, earum cupiditate. Dolore
-              facilis optio ab!
+            <div className="right md:w-4/10 font-monos text-justify tracking-widest text-2xl">
+            My portfolio blends theory with hands-on work. With 5+ projects and 1200+ algorithmic problems solved, I showcase strong problem-solving and end-to-end development skills. Explore my Projects for more.
             </div>
           </div>
 
@@ -69,7 +64,7 @@ const Overview = () => {
 
           <div className="knowmore relative">
             <Link
-              to="/about"
+              to="/projects"
               className="flex items-center gap-2 px-5 py-17 bg-black rounded-full text-white absolute right-60 bottom-32 font-bold text-2xl hover:bg-white hover:text-black cursor-pointer"
             >
               Projects <GoArrowUpRight />
@@ -80,7 +75,7 @@ const Overview = () => {
 
       {/* Next component scrolls normally but overlays Overview */}
       <div className="relative z-20">
-        <FocusOn />
+        {/* <FocusOn /> */}
       </div>
     </div>
   );

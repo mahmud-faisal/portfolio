@@ -17,7 +17,7 @@ const Project = ({project}) => {
       }
     // console.log(project)
   return (
-    <div className='flex p-4 border-1 rounded-2xl to-blue-950 gap-4'>
+    <div className='flex p-4 border-1 rounded-2xl to-blue-950 gap-4 mt-4'>
         <div className="max-w-[250px]">
             {/* Slider */}
             {/* <img src={assets.sample_project_image} alt="" className='max-w-[500px]' /> */}
